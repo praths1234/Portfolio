@@ -1,0 +1,56 @@
+/* Add your preferred styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  #typing-animation {
+    border-right: 2px solid #fff;
+    padding-right: 2px;
+    animation: typing 1s steps(30) infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
